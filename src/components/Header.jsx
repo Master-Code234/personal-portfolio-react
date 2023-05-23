@@ -1,13 +1,27 @@
-export default function Header({ img }) {
+import "../styles/Header.css";
+import mypic from "/images/mypic.png";
+
+export default function Header() {
   return (
     <header>
-      <div className="greet-container">
-        <h1 className="greet">
-          Hello my Name is <span className="greet-name">Caleb</span>
+      <div className="header-container">
+        <h1 className="header">
+          Hello my Name is <span className="header-name">Caleb</span>
         </h1>
-        <h2 className="greet-paragraph">Full Stack Web Developer</h2>
+
+        <h2 className="header-title">Full Stack Web Developer</h2>
       </div>
-      <img className="greet-img" src={img} alt="tech background image" width="450" height="450" />
+
+      <div className="header-img-container">
+        <img
+          rel="preload"
+          className="header-img"
+          src={mypic}
+          alt="tech background image"
+          width="500"
+          height="560"
+        />
+      </div>
     </header>
   );
 }

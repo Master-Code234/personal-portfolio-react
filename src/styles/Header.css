@@ -1,0 +1,36 @@
+header {
+  display: flex;
+  padding: 10%;
+  border: none;
+  background-color: var(--primary-color);
+  color: #ffff;
+}
+
+.header-container {
+   flex: 1;
+   align-items: flex-start;
+}
+
+.header-img-container {
+  flex: 1; 
+}
+
+.header-name {
+  color: rgb(9, 251, 251);
+}
+
+.header {
+  font-size: 400%;
+}
+
+.header-title {
+  color: #ffff;
+  opacity: 80%;
+}
+
+
+
+
+
+
+
