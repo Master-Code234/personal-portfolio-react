@@ -1,29 +1,29 @@
 .about {
   display: flex;
+  flex-direction: column;
+  text-align: center;
   justify-content: center;
-  background-color: var(--primary-color);
+  align-items: center;
   color: #fff;
-  padding: 10% 0;
 }
 
 .aboutme-container {
-  text-align: left;
+  text-align: center;
   font-size: 150%;
-  line-height: 125%;
+  line-height: 1.7em;
   color: #aeaeae;
-  min-width: 10%;
-  max-width: 50%;
-} 
+  max-width: 80%;
+  border-radius: 2em;
+  padding: 2em;
+  background-color: var(--primary-color);
+
+}
 
 .aboutme-img {
- border-radius: 50%;
- padding: 2%;
+  border-radius: 50%;
 }
 
 .aboutme-title {
-  font-size: 210%;
+  font-size: 3rem;
   color: #fff;
 }
-
-
-

@@ -1,12 +1,16 @@
 import "../styles/About.css";
+import mypic from "../../images/mypic.png";
 
-export default function About({ img }) {
+export default function About() {
   return (
     <div className="about">
-      <img className="aboutme-img" src={img} width="500" height="560" />
+        <h2 className="aboutme-title">About me</h2>
+
 
       <div className="aboutme-container">
-        <h2 className="aboutme-title">About me</h2>
+
+        
+        <img className="aboutme-img" src={mypic} width="500" height="560" />
 
         <p>
           My journey in web design began during my college years when I first

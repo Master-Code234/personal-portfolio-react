@@ -1,0 +1,23 @@
+.contact-me {
+    text-align: center;
+    background-color: rgb(6, 6, 6);
+    color: #fff;
+    font-size: 2rem;
+  }
+  
+  .contact-container {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+  }
+  
+  .linkedin-icon {
+    color: #217be2;
+  }
+  .github-icon {
+    color: #fff;
+  }
+  .email-icon {
+    color: crimson;
+  }
+  
