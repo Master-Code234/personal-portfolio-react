@@ -1,6 +1,7 @@
 import "../styles/Projects.css";
 import pong from "../../images/pong.png";
 import weatherapp from "../../images/weatherapp.png";
+import blogPost from "../../images/blogPost.png"
 
 export default function Projects() {
   return (
@@ -35,6 +36,14 @@ export default function Projects() {
               width="500"
               height="500"
             />
+          </a>
+        </div>
+
+        <div className="blog-post">
+          <h2>Blog Post Website</h2>
+
+          <a href="https://github.com/Master-Code234/blog-post-frontend" target="_blank">
+            <img src={blogPost} alt="blog post website" width="500" height="500" />
           </a>
         </div>
       </div>
